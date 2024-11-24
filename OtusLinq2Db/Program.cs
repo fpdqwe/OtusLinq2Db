@@ -2,15 +2,13 @@
 using LinqToDB;
 using LinqToDB.DataProvider;
 using LinqToDB.DataProvider.PostgreSQL;
-using LinqToDB.DataProvider.SqlServer;
 using System.Diagnostics;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace OtusLinq2Db
 {
 	internal class Program
 	{
-		private static readonly string _connectionString = "Host=localhost;Username=postgres;Password=YCZ1J7_Ww-;Database=shop;";
+		private static readonly string _connectionString = "ur conn string";
 		private static Repository _repos;
 		static async Task Main(string[] args)
 		{
